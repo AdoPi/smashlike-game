@@ -42,6 +42,8 @@ Puis, selectionnez un personnage ainsi qu'un stage en cliquant sur les icones re
 
 ### Les commandes en jeu
 Les touches définies par défaut sont présentées dans l'image ci-dessous :
+
+
 ![Screenshot des touches du jeu](https://raw.github.com/AdoPi/smashlike-game/master/touches.png)
 
 
