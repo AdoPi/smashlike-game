@@ -6,7 +6,7 @@ Nous avons réalisé un jeu s'inspirant de Smash bros afin d'étudier le dévelo
 
 ![Screenshot du jeu Smash](https://raw.github.com/AdoPi/smashlike-game/master/presentation.jpg)
 
-Ainsi, nous avons codé un mini moteur de jeu ainsi qu'un petit moteur physique tout en respectant une architecture MVC.
+Nous avons donc codé un mini moteur de jeu ainsi qu'un petit moteur physique tout en respectant une architecture MVC.
 
 ## Compilation
 Vous pouvez compiler l'intégralité du projet à l'aide de la commande 'ant'
