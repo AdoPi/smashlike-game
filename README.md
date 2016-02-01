@@ -2,7 +2,7 @@
 
 ##Présentation
 Ce projet a été réalisé dans le cadre d'un projet à sujet libre pour notre première année dans l'école d'ingénieurs ENSEEIHT.
-Nous avons réalisé un jeu s'inspirant de Smash bros afin d'étudier le développement des jeux vidéo et ces différents aspects.
+Nous avons réalisé un jeu s'inspirant de Smash bros afin d'étudier le développement des jeux vidéo et ses différents aspects.
 
 ![Screenshot du jeu Smash](https://raw.github.com/AdoPi/smashlike-game/master/presentation.jpg)
 
