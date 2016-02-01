@@ -36,7 +36,9 @@ Sinon, il faudra simplement lancer Main ou menu.Main pour démarrer le projet.
 ### Le menu
 Le menu n'étant pas très intuitif, voici quelques explications.
 
+
 Commencez par choisir le mode de jeu (de haut en bas : Vie, entrainement, Temps).
+
 Puis, selectionnez un personnage ainsi qu'un stage en cliquant sur les icones respectives.
 
 
@@ -49,7 +51,9 @@ Les touches définies par défaut sont présentées dans l'image ci-dessous :
 
 Un joueur possède 4 touches de direction (celle du haut permettant de sauter).
 De plus, chaque joueur possède 2 boutons d'attaques.
+
 Il est possible de combiner un bouton d'attaque avec une touche de direction.
+
 Ce qui donne un total de 8 attaques différentes par personnage !
 
 
