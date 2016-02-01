@@ -36,7 +36,7 @@ public class ContainerChoixStage extends ContenuReinitialisable{
 		this.setLayout(new BorderLayout());
 		
 		//centre : grille des stages
-		JPanelDessine stages = new JPanelDessine("fondSimple.png");
+		JPanelDessine stages = new JPanelDessine("fondSimple.jpg");
 		
 		stages.setLayout(new FlowLayout());
 		for(int i = 0; i<nbStages; i++){

@@ -78,6 +78,16 @@ public class Moteur {
 		//affichage de la fin du jeu
 		Joueur vainqueur = jeu.getVainqueur();
 		vue.renderFinJeu(vainqueur);
+		//quitte le jeu apres un court delai
+		try {
+			new javax.swing.Timer(3000, new ActionListener() {
+				public void actionPerformed(ActionEvent e) {
+					System.exit(0);	
+				}
+			}).start();
+		} catch(Exception e) {
+			e.printStackTrace();
+		}
 	}
 	
 	/** Gerer la pause */

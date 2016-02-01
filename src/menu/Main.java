@@ -21,7 +21,7 @@ import modele.StageForet;
 
 public class Main {
 	
-	public static Dimension tailleFenetre = new Dimension(500,500);
+	public static Dimension tailleFenetre = new Dimension(500,300);
 	public static Dimension tailleIcones = new Dimension(150,150);
 	
 	public enum Mode{VIE,TEMPS,ENTRAINEMENT}
@@ -60,8 +60,11 @@ public class Main {
 				//initialisation des contenus
 				contenu1 = new ContainerCommencer();
 				contenu2 = new ContainerChoixMode();
+				contenu2.setPreferredSize(new Dimension(500,300));
 				contenu3 = new ContainerChoixPersonnages();
+			      contenu3.setPreferredSize(new Dimension(500,500));
 				contenu4 = new ContainerChoixStage();
+			      contenu4.setPreferredSize(new Dimension(500,500));
 				contenu6 = new ContainerChoixCommandes();
 	}
 	
@@ -86,15 +89,18 @@ public class Main {
 		case 2:
 			contenu = Main.contenu2;
 			afficherJeu = false;
+			Main.fenetre.setTitle("Mini-SmashBros : Mode de jeu");
 			contenu.reinitialiser();
 			break;
 		case 3:
 			contenu = Main.contenu3;
+			Main.fenetre.setTitle("Mini-SmashBros : Choix personnages");
 			afficherJeu = false;
 			contenu.reinitialiser();
 			break;
 		case 4:
 			contenu = Main.contenu4;
+			Main.fenetre.setTitle("Mini-SmashBros : Choix du terrain");
 			afficherJeu = false;
 			contenu.reinitialiser();
 			break;

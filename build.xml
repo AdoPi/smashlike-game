@@ -9,7 +9,7 @@
   </target>
 
   <target name="compile" depends="init" description="Compilation du projet">
-    <javac encoding="iso-8859-1" srcdir="src" destdir="build/classes" />
+    <javac includeantruntime="false" encoding="iso-8859-1" srcdir="src" destdir="build/classes" />
   <copy todir="build/classes/data" >  
         <fileset dir="src/data" includes="**"/>  
  </copy>  

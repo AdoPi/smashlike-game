@@ -42,7 +42,7 @@ public class ContainerChoixPersonnages extends ContenuReinitialisable{
 		this.setLayout(new BorderLayout());
 		
 		//centre : grille des personnages
-		JPanelDessine personnages = new JPanelDessine("fondSimple.png");
+		JPanelDessine personnages = new JPanelDessine("fondSimple.jpg");
 
 		//personnages.setLayout(new GridLayout(3,(int) (nbPersonnages/3)));
 		personnages.setLayout(new FlowLayout());
