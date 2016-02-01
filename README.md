@@ -4,6 +4,8 @@
 Ce projet a été réalisé dans le cadre d'un projet à sujet libre pour notre première année dans l'école d'ingénieurs ENSEEIHT.
 Nous avons réalisé un jeu s'inspirant de Smash bros afin d'étudier le développement des jeux vidéo et de ces différents aspects.
 
+![Screenshot du jeu Smash](https://raw.github.com/AdoPi/smashlike-game/master/presentation.jpg)
+
 Ainsi, nous avons codé un mini moteur de jeu ainsi qu'un petit moteur physique tout en respectant une architecture MVC.
 
 ## Compilation
@@ -24,7 +26,7 @@ Il suffira donc de lancer Main ou menu.Main pour démarrer le projet.
     $ cd build/classes ; java Main
 
     $ cd build/classes ; java menu.Main
-    
+
 ## Auteurs
 
 Remerciements à tous les membres du groupe 44 :
