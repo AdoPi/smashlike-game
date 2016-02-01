@@ -1,0 +1,10 @@
+Analyse :
+	- Normalement, le paquetage moteur ne devrait pas utiliser l'interface utilisateur.
+	- Il manque des informations, en l'état vous ne pouvez pas vous répartir le travail sur cette base
+Organisation :
+	- OK : matrice paquetage / rôle / membre MAIS trop macroscopique, il faudrait être plus prrécis.
+Conception :
+	- OK pour le diagramme de classe.
+	- Justification OK des principaux choix dans le texte.
+	- Le patron Etat semble convenir pour votre modélisation.
+

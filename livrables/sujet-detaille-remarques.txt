@@ -1,0 +1,28 @@
+
+Voici les principales remarques :
+
+* Pour la partie jeu en réseau, vous n'aurez pas forcément les éléments pour
+  le faire dans le cadre de l'UE TOB.
+
+* Quelles sont les caractéristiques d'un stage ?
+	Une stage contient plusieurs objets de décors, dont des plates-formes (plusieurs types(non traversables, traversables depuis le bas,...))et une image de background.
+
+* Quels sont les lois physique à prendre en compte ?
+	La gravité
+	Gestion des coups: la distance de projection dépend de la force du coup ET de la masse (ou plutot de la masse pondérée par les pourcentages du personnage) de la cible.
+	Gestion des collisions: Personnage/personnage, Personnage/Décor.
+	Gestion du "frottement" de l'air : un personnage propulsé doit ralentir avec le temps
+	Certains phénomènes seront modéliser de manière simpl(ist)e
+
+* Quels sont les mouvements possible pour un joueur ?  Lister les coups
+  possibles.
+  	Mouvements: déplacement latéraux (course); saut(+saut "aérien", ie il sera possible d'effectuer un "double saut"); possibilité de se diriger en l'air
+	Les coups possibles seront censés dépendre du personnage, leurs spécificités seront donc détaillés plus tard (les différents coups sont lancés selon les combinaisons entre une des 2 touches de frappe et les touches directionnelles (on a donc 2*4 coups possibles))
+
+* Est-il possible que l'un des joueurs soit guidé par la machine ? (mode
+  entrainement mais avec un joueur non inerte)
+  	Non, pas d'IA prévue dans un premier temps, le seul mode de jeu 1 joueur sera contre une personnage fixe qui subira les coups du joueur
+	L'implantation d'une IA basique qui reviendrait en place lors de l'entrainement est envisageable
+
+* Qu'est ce qui fait qu'un joueur est éjecté hors de l'arène ?  Ceci n'est pas indiqué clairement.
+	Un personnage est éjecté de l'arene si il dépasse des limites fixées, ces limites seront hors champ ( ce qui permettra de focaliser la caméra sur l'arene sans avoir des limites trop proches)

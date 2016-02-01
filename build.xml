@@ -1,0 +1,35 @@
+<?xml version="1.0" ?>   
+<project name="smashbros2d" default="archive" >
+<description>Compile et lance un programme simple</description>
+
+  <target name="init">
+    <mkdir dir="dist" />
+    <mkdir dir="build/classes" />
+    <mkdir dir="build/classes/data" />
+  </target>
+
+  <target name="compile" depends="init" description="Compilation du projet">
+    <javac encoding="iso-8859-1" srcdir="src" destdir="build/classes" />
+  <copy todir="build/classes/data" >  
+        <fileset dir="src/data" includes="**"/>  
+ </copy>  
+  </target>
+
+  <target name="archive" depends="compile" 
+      description="Creation d'un JAR executable">
+    <jar destfile="dist/projet.jar" basedir="build/classes" >
+    <manifest>
+        <attribute name="Main-Class"
+            value="menu.Main" />
+    </manifest>  
+</jar>
+</target>
+  
+  <target name="clean" depends="init" description="Supprime les repertoires temporaires">
+    <delete dir="build" />
+    <delete dir="dist" />
+  </target>
+
+</project>
+
+
