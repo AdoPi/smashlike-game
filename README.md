@@ -1,6 +1,6 @@
 # smashlike-game
 
-##Présentation
+## Présentation
 Ce projet a été réalisé dans le cadre d'un projet à sujet libre pour notre première année dans l'école d'ingénieurs ENSEEIHT.
 Nous avons réalisé un jeu s'inspirant de Smash bros afin d'étudier le développement des jeux vidéo et ses différents aspects.
 
