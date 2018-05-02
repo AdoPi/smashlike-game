@@ -59,7 +59,7 @@ Ce qui donne un total de 8 attaques différentes par personnage !
 
 ## Auteurs
 
-Remerciements à tous les membres du groupe 44 :
+Remerciements à tous les membres du groupe 44 (école ENSEEIHT, promo 2017) :
 
 * Louis QIU
 * Joseph MECHALI
