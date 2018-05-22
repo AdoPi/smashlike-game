@@ -27,9 +27,10 @@ Pour lancer le .jar :
 
 Sinon, il faudra simplement lancer Main ou menu.Main pour démarrer le projet.
 
-    $ cd build/classes ; java Main
+    `cd build/classes ; java Main`
 
-    $ cd build/classes ; java menu.Main
+
+    `cd build/classes ; java menu.Main`
 
 ## Comment jouer ?
 
