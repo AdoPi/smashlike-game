@@ -38,7 +38,6 @@ Le menu n'étant pas très intuitif, voici quelques explications.
 
 
 Commencez par choisir le mode de jeu (de haut en bas : Vie, entrainement, Temps).
-
 Puis, selectionnez un personnage ainsi qu'un stage en cliquant sur les icones respectives.
 
 
